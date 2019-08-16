@@ -1,0 +1,451 @@
+[
+  {
+    "id": "38a29ba4-5be8-45e5-932c-6669f43333c3",
+    "whenUpdated": "2019-08-11T03:00:32.551Z",
+    "address": {
+      "text": "1.4 km S Auckland",
+      "manual": false
+    },
+    "checksum": "24",
+    "dayId": "20190811",
+    "driverTimeZoneOffset": 12,
+    "eldDeviceId": "5c90503d0aaf19097fe9892f",
+    "eventOrigin": "driver",
+    "eventType": "login",
+    "personInChargeId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "position": {
+      "accuracyMeters": 39,
+      "latitude": -36.86582049820572,
+      "longitude": 174.76456386968493,
+      "metersSinceValid": 0,
+      "secondsSinceValid": 248
+    },
+    "recordStatus": "active",
+    "sequence": {
+      "number": 2,
+      "source": "android"
+    },
+    "whenOccurred": "2019-08-11T03:00:29.258Z",
+    "personId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "accountId": "f4555b55-a436-494c-ae40-08d676878185",
+    "anchor": "fdd07069-28c5-4b30-9247-b7eb7d1f907c",
+    "resolveId": 0.3586527322389359,
+    "whenCreated": "2019-08-11T03:00:32.551Z",
+    "errorSync": null,
+    "deleted": false,
+    "currentDataDiagnostics": [],
+    "currentMalfunctions": [],
+    "auditOrigin": [],
+    "shipments": [],
+    "tags": [],
+    "annotations": [],
+    "trailers": [],
+    "terminalId": "f061a07d-7910-4b17-b1bc-08d6bbbf681b",
+    "divisionId": "79ed2c83-57ef-474c-b76e-08d6792ae63c",
+    "coDrivers": [],
+    "requiredFieldsValid": true
+  },
+  {
+    "id": "fb5d3ca3-3e52-46ff-bd15-8de0d932e034",
+    "whenUpdated": "2019-08-11T03:00:32.789Z",
+    "address": {
+      "text": "1.4 km S Auckland",
+      "manual": false
+    },
+    "checksum": "25",
+    "dayId": "20190811",
+    "driverTimeZoneOffset": 12,
+    "eldDeviceId": "5c90503d0aaf19097fe9892f",
+    "eventOrigin": "driver",
+    "eventType": "statusChange",
+    "personInChargeId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "position": {
+      "accuracyMeters": 39,
+      "latitude": -36.86582049820572,
+      "longitude": 174.76456386968493,
+      "metersSinceValid": 0,
+      "secondsSinceValid": 248
+    },
+    "recordStatus": "active",
+    "sequence": {
+      "number": 3,
+      "source": "android"
+    },
+    "status": {
+      "id": "statusOnDutyNotDriving",
+      "name": "On Duty",
+      "ruleSetId": "722683b0-4941-4386-aaea-4eba5c0eea43",
+      "previousStatus": {
+        "whenOccurred": "2019-08-11T03:00:29.259Z",
+        "id": "statusOffDuty",
+        "name": "Off Duty",
+        "ruleSetId": "722683b0-4941-4386-aaea-4eba5c0eea43",
+        "flags": []
+      },
+      "flags": [
+        "onShift",
+        "paid",
+        "onDuty"
+      ]
+    },
+    "whenOccurred": "2019-08-11T03:00:29.259Z",
+    "personId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "accountId": "f4555b55-a436-494c-ae40-08d676878185",
+    "anchor": "3933e253-5de7-4a19-b2a8-4cd932e63dde",
+    "resolveId": 0.5170212684229458,
+    "whenCreated": "2019-08-11T03:00:32.789Z",
+    "errorSync": null,
+    "deleted": false,
+    "currentDataDiagnostics": [],
+    "currentMalfunctions": [],
+    "auditOrigin": [],
+    "shipments": [],
+    "tags": [],
+    "annotations": [],
+    "trailers": [],
+    "terminalId": "f061a07d-7910-4b17-b1bc-08d6bbbf681b",
+    "divisionId": "79ed2c83-57ef-474c-b76e-08d6792ae63c",
+    "coDrivers": [],
+    "requiredFieldsValid": true
+  },
+  {
+    "id": "a152e6ec-7c3b-4ca8-be6a-033c3faf0e53",
+    "whenUpdated": "2019-08-05T03:01:17.099Z",
+    "address": {
+      "text": "1.4 km S Auckland",
+      "manual": false
+    },
+    "checksum": "22",
+    "dayId": "20190811",
+    "driverTimeZoneOffset": 12,
+    "eldDeviceId": "5c90503d0aaf19097fe9892f",
+    "eventOrigin": "auto",
+    "eventType": "breakBracket",
+    "personInChargeId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "position": {
+      "accuracyMeters": 39,
+      "latitude": -36.86582049820572,
+      "longitude": 174.76456386968493,
+      "metersSinceValid": 0,
+      "secondsSinceValid": 296
+    },
+    "recordStatus": "active",
+    "sequence": {
+      "number": 6,
+      "source": "android"
+    },
+    "whenOccurred": "2019-08-11T03:00:29.259Z",
+    "personId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "accountId": "f4555b55-a436-494c-ae40-08d676878185",
+    "anchor": "685a37a8-9534-4765-a3f4-74c9351ee805",
+    "resolveId": 0.35685246023962747,
+    "whenCreated": "2019-08-11T03:01:17.099Z",
+    "errorSync": null,
+    "deleted": false,
+    "currentDataDiagnostics": [
+      "diagnosticMissingDataElements"
+    ],
+    "currentMalfunctions": [],
+    "auditOrigin": [],
+    "shipments": [],
+    "tags": [],
+    "annotations": [],
+    "trailers": [],
+    "terminalId": "f061a07d-7910-4b17-b1bc-08d6bbbf681b",
+    "divisionId": "79ed2c83-57ef-474c-b76e-08d6792ae63c",
+    "coDrivers": [],
+    "requiredFieldsValid": true
+  },
+  {
+    "id": "afa85197-cbcd-4116-a64d-2c82303ce2c5",
+    "whenUpdated": "2019-08-11T03:01:23.504Z",
+    "checksum": "75",
+    "dayId": "20190811",
+    "driverTimeZoneOffset": 12,
+    "eldDeviceId": "5c90503d0aaf19097fe9892f",
+    "eventOrigin": "driver",
+    "eventType": "statusChange",
+    "personInChargeId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "recordStatus": "active",
+    "sequence": {
+      "number": 7,
+      "source": "android"
+    },
+    "status": {
+      "id": "statusOffDuty",
+      "name": "Off Duty",
+      "ruleSetId": "722683b0-4941-4386-aaea-4eba5c0eea43",
+      "previousStatus": {
+        "whenOccurred": "2019-08-11T03:01:12.404Z",
+        "id": "statusOnDutyNotDriving",
+        "name": "On Duty",
+        "ruleSetId": "722683b0-4941-4386-aaea-4eba5c0eea43",
+        "flags": [
+          "onShift",
+          "paid",
+          "onDuty"
+        ]
+      },
+      "flags": []
+    },
+    "whenOccurred": "2019-08-11T06:50:23.395Z",
+    "personId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "accountId": "f4555b55-a436-494c-ae40-08d676878185",
+    "anchor": "4bea05ba-ae48-4305-b4f8-da738681ab8e",
+    "resolveId": 0.2658545367667917,
+    "whenCreated": "2019-08-11T03:01:23.504Z",
+    "errorSync": null,
+    "deleted": false,
+    "currentDataDiagnostics": [
+      "diagnosticMissingDataElements"
+    ],
+    "currentMalfunctions": [],
+    "auditOrigin": [],
+    "shipments": [],
+    "tags": [
+      "Rest Break"
+    ],
+    "annotations": [
+      {
+        "comment": "Rest Break",
+        "whenCreated": "2019-08-11T03:01:23.395Z",
+        "whoCreated": "0cb7cadd-eef4-49b8-a523-08d6bca9078b"
+      }
+    ],
+    "trailers": [],
+    "terminalId": "f061a07d-7910-4b17-b1bc-08d6bbbf681b",
+    "divisionId": "79ed2c83-57ef-474c-b76e-08d6792ae63c",
+    "coDrivers": [],
+    "requiredFieldsValid": false
+  },
+  {
+    "id": "2a855978-5ed5-4e57-80ad-7ae1e91fb271",
+    "whenUpdated": "2019-08-11T03:01:23.504Z",
+    "breakBracket": {
+      "bracketDuration": 14400000,
+      "bracketEnd": "2019-08-05T07:00:29.259Z",
+      "bracketStart": "2019-08-05T03:00:29.259Z"
+    },
+    "checksum": "75",
+    "dayId": "20190811",
+    "driverTimeZoneOffset": 12,
+    "eldDeviceId": "5c90503d0aaf19097fe9892f",
+    "eventOrigin": "driver",
+    "eventType": "restBreak",
+    "personInChargeId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "recordStatus": "active",
+    "sequence": {
+      "number": 7,
+      "source": "android"
+    },
+    "whenOccurred": "2019-08-11T06:50:23.561Z",
+    "personId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "accountId": "f4555b55-a436-494c-ae40-08d676878185",
+    "anchor": "308adaea-6723-44ec-92ed-85d80a9ecd10",
+    "resolveId": 0.19105816495434014,
+    "whenCreated": "2019-08-11T03:01:23.504Z",
+    "errorSync": null,
+    "deleted": false,
+    "currentDataDiagnostics": [
+      "diagnosticMissingDataElements"
+    ],
+    "currentMalfunctions": [],
+    "auditOrigin": [],
+    "shipments": [],
+    "tags": [
+      "breakOrigin:manual",
+      "breakStart"
+    ],
+    "annotations": [
+      {
+        "comment": "Rest Break",
+        "whenCreated": "2019-08-11T03:01:23.395Z",
+        "whoCreated": "0cb7cadd-eef4-49b8-a523-08d6bca9078b"
+      }
+    ],
+    "trailers": [],
+    "terminalId": "f061a07d-7910-4b17-b1bc-08d6bbbf681b",
+    "divisionId": "79ed2c83-57ef-474c-b76e-08d6792ae63c",
+    "coDrivers": [],
+    "requiredFieldsValid": true
+  },
+  {
+    "id": "8ec0a4f0-192f-4a60-8192-2d25f44fc74d",
+    "whenUpdated": "2019-08-11T03:01:23.504Z",
+    "breakBracket": {
+      "bracketDuration": 14400000,
+      "bracketEnd": "2019-08-05T07:00:29.259Z",
+      "bracketStart": "2019-08-05T03:00:29.259Z"
+    },
+    "checksum": "75",
+    "dayId": "20190811",
+    "driverTimeZoneOffset": 12,
+    "eldDeviceId": "5c90503d0aaf19097fe9892f",
+    "eventOrigin": "driver",
+    "eventType": "restBreak",
+    "personInChargeId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "recordStatus": "active",
+    "sequence": {
+      "number": 7,
+      "source": "android"
+    },
+    "whenOccurred": "2019-08-11T07:01:30.534Z",
+    "personId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "accountId": "f4555b55-a436-494c-ae40-08d676878185",
+    "anchor": "72b08171-1515-4080-a827-96a5bfe35085",
+    "resolveId": 0.6032118757307018,
+    "whenCreated": "2019-08-11T03:01:23.504Z",
+    "errorSync": null,
+    "deleted": false,
+    "currentDataDiagnostics": [
+      "diagnosticMissingDataElements"
+    ],
+    "currentMalfunctions": [],
+    "auditOrigin": [],
+    "shipments": [],
+    "tags": [
+      "breakEnd"
+    ],
+    "annotations": [
+      {
+        "comment": "Rest Break",
+        "whenCreated": "2019-08-11T03:01:23.395Z",
+        "whoCreated": "0cb7cadd-eef4-49b8-a523-08d6bca9078b"
+      }
+    ],
+    "trailers": [],
+    "terminalId": "f061a07d-7910-4b17-b1bc-08d6bbbf681b",
+    "divisionId": "79ed2c83-57ef-474c-b76e-08d6792ae63c",
+    "coDrivers": [],
+    "requiredFieldsValid": true
+  },
+  {
+    "id": "6b0a7a93-0185-4504-8b4c-1474b91bb825",
+    "whenUpdated": "2019-08-11T03:01:31.760Z",
+    "address": {
+      "text": "1.3 km S Auckland",
+      "manual": false
+    },
+    "checksum": "09",
+    "dayId": "20190811",
+    "driverTimeZoneOffset": 12,
+    "eldDeviceId": "5c90503d0aaf19097fe9892f",
+    "eventOrigin": "driver",
+    "eventType": "statusChange",
+    "personInChargeId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "position": {
+      "accuracyMeters": 40,
+      "latitude": -36.865168092772365,
+      "longitude": 174.76411015726626,
+      "metersSinceValid": 0,
+      "secondsSinceValid": 4
+    },
+    "recordStatus": "active",
+    "sequence": {
+      "number": 8,
+      "source": "android"
+    },
+    "status": {
+      "id": "statusOnDutyNotDriving",
+      "name": "On Duty",
+      "ruleSetId": "722683b0-4941-4386-aaea-4eba5c0eea43",
+      "previousStatus": {
+        "whenOccurred": "2019-08-11T06:50:23.395Z",
+        "id": "statusOffDuty",
+        "name": "Off Duty",
+        "ruleSetId": "722683b0-4941-4386-aaea-4eba5c0eea43",
+        "flags": []
+      },
+      "flags": [
+        "onShift",
+        "paid",
+        "onDuty"
+      ]
+    },
+    "whenOccurred": "2019-08-11T07:01:30.535Z",
+    "personId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "accountId": "f4555b55-a436-494c-ae40-08d676878185",
+    "anchor": "484c8694-4353-45af-aee8-96152ec4df66",
+    "resolveId": 0.8480570074195366,
+    "whenCreated": "2019-08-11T03:01:31.760Z",
+    "errorSync": null,
+    "deleted": false,
+    "currentDataDiagnostics": [
+      "diagnosticMissingDataElements"
+    ],
+    "currentMalfunctions": [],
+    "auditOrigin": [],
+    "shipments": [],
+    "tags": [],
+    "annotations": [],
+    "trailers": [],
+    "terminalId": "f061a07d-7910-4b17-b1bc-08d6bbbf681b",
+    "divisionId": "79ed2c83-57ef-474c-b76e-08d6792ae63c",
+    "coDrivers": [],
+    "requiredFieldsValid": true
+  },
+  {
+    "id": "26631151-95a5-4fbc-8851-b33b1f0c8dba",
+    "whenUpdated": "2019-08-11T01:10:08.800Z",
+    "address": {
+      "text": "1.3 km S Auckland",
+      "manual": false
+    },
+    "checksum": "F6",
+    "dayId": "20190811",
+    "driverTimeZoneOffset": 12,
+    "eldDeviceId": "5c90503d0aaf19097fe9892f",
+    "eventOrigin": "driver",
+    "eventType": "statusChange",
+    "position": {
+      "accuracyMeters": 31,
+      "latitude": -36.86556204222143,
+      "longitude": 174.76440922357142,
+      "metersSinceValid": 0,
+      "secondsSinceValid": 0
+    },
+    "recordStatus": "active",
+    "sequence": {
+      "number": 19,
+      "source": "android"
+    },
+    "status": {
+      "id": "statusSleeper",
+      "name": "Sleeper Berth",
+      "ruleSetId": "722683b0-4941-4386-aaea-4eba5c0eea43",
+      "previousStatus": {
+        "whenOccurred": "2019-08-11T07:10:30.535Z",
+        "id": "statusOnDutyNotDriving",
+        "name": "On Duty",
+        "ruleSetId": "722683b0-4941-4386-aaea-4eba5c0eea43",
+        "flags": [
+          "onShift",
+          "paid",
+          "onDuty"
+        ]
+      },
+      "flags": []
+    },
+    "whenOccurred": "2019-08-11T11:05:30.535Z",
+    "personId": "0cb7cadd-eef4-49b8-a523-08d6bca9078b",
+    "accountId": "f4555b55-a436-494c-ae40-08d676878185",
+    "anchor": "c3aa6a14-d2ae-413d-bfdf-6bb5a4d3850f",
+    "resolveId": 0.7489440079374217,
+    "whenCreated": "2019-08-11T01:36:22.800Z",
+    "errorSync": null,
+    "deleted": false,
+    "currentDataDiagnostics": [],
+    "currentMalfunctions": [],
+    "auditOrigin": [],
+    "shipments": [
+      "TEST-APK"
+    ],
+    "tags": [],
+    "annotations": [],
+    "trailers": [],
+    "terminalId": "f061a07d-7910-4b17-b1bc-08d6bbbf681b",
+    "divisionId": "79ed2c83-57ef-474c-b76e-08d6792ae63c",
+    "coDrivers": [],
+    "requiredFieldsValid": true
+  }
+]
