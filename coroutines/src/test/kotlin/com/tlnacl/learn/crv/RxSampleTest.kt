@@ -6,7 +6,6 @@ import com.tlnacl.learn.cvr.UserState
 import io.reactivex.Maybe
 import io.reactivex.Observable
 import io.reactivex.Single
-import io.reactivex.observers.TestObserver
 import io.reactivex.subjects.BehaviorSubject
 import io.reactivex.subjects.Subject
 import org.junit.Test
@@ -32,7 +31,17 @@ class RxSampleTest {
     fun createCoDriverEvent() {
         currentUserSubject.distinctUntilChanged()
                 .filter { it.userIds.isNotEmpty() }
-                .filter { it.accountId == getCurrentAccountId().blockingGet() } // very ugly if not use blockingGet()
+//                .filter { it.accountId == getCurrentAccountId().blockingGet() } // very ugly if not use blockingGet()
+                .concatMap { userState -> // Why need concatMap not flatMap
+                    getCurrentAccountId()
+                            .flatMapObservable { id ->
+//                                println("handle accountId ${userState}")
+                                if (id == userState.accountId) {
+                                    return@flatMapObservable Observable.just(userState)
+                                }
+                                Observable.empty<UserState>()
+                            }
+                }
                 .doOnNext { println("UserState: $it") } // doOnNext for logging
                 .flatMap { userState ->
                     Observable.fromIterable(userState.userIds)
