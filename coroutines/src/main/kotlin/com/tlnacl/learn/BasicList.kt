@@ -17,8 +17,8 @@ fun main() = runBlocking {
 
 suspend fun concurrentList() = coroutineScope {
     val list = ArrayList<Int>()
-    val one = async { doSomethingUsefulOne() }
-    val two = async { doSomethingUsefulTwo() }
+    val one = async { getOne() }
+    val two = async { getTwo() }
 
     list.add(one.await())
     list.add(two.await())
@@ -27,8 +27,8 @@ suspend fun concurrentList() = coroutineScope {
 
 suspend fun concurrentFun() = coroutineScope {
     val list = ArrayList<Int>()
-    val one = async { doSomethingUsefulOne() }
-    val two = async { doSomethingUsefulTwo() }
+    val one = async { getOne() }
+    val two = async { getTwo() }
 
     list.add(one.await())
     list.add(two.await())
