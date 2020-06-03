@@ -3,7 +3,7 @@ package com.tlnacl.learn
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.actor
 import kotlinx.coroutines.channels.consumeEach
-import org.junit.Test
+import org.junit.jupiter.api.Test
 import kotlin.system.measureTimeMillis
 
 class ActorTest {

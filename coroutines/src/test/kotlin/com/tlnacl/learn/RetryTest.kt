@@ -2,7 +2,7 @@ package com.tlnacl.learn
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
-import org.junit.Test
+import org.junit.jupiter.api.Test
 import java.io.IOException
 import javax.xml.ws.http.HTTPException
 

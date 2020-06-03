@@ -7,7 +7,7 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.consumeEach
 import kotlinx.coroutines.channels.distinct
-import org.junit.Test
+import org.junit.jupiter.api.Test
 import java.lang.Exception
 import kotlin.system.measureTimeMillis
 

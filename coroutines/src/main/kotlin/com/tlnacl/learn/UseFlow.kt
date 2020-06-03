@@ -23,7 +23,7 @@ fun <T> Flow<T>.buffer(size: Int = 0): Flow<T> = flow {
 
 suspend fun main() {
     val time = measureTimeMillis {
-        ints.buffer().collect {
+        ints.collect {
             delay(100)
             println(it)
         }

@@ -5,7 +5,7 @@ import io.reactivex.observers.TestObserver
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.BehaviorSubject
 import io.reactivex.subjects.PublishSubject
-import org.junit.Test
+import org.junit.jupiter.api.Test
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 
