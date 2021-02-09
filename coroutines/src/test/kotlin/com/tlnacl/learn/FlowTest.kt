@@ -49,18 +49,36 @@ class FlowTest {
                 }
     }
 
+private fun testFlow(i: Int):Flow<String> = channelFlow {
+    send("$i: First")
+    delay(500)
+    send("$i: Second")
+}
+
     @Test
     fun testFlatMapLatest() = runBlocking {
         var startTime = System.currentTimeMillis() // remember the start time
-        (1..3).asFlow().onEach { delay(100) } // a number every 100 ms
-                .flatMapLatest { requestFlow(it) }
+        (1..3).asFlow().onEach { delay(10) } // a number every 100 ms
+                .flatMapLatest { testFlow(it) }
                 .collect { value -> // collect and print
-                    println("$value at ${System.currentTimeMillis() - startTime} ms from start")
+                    println("$value at ${System.currentTimeMillis() - startTime} ms")
                 }
 
+        println()
         startTime = System.currentTimeMillis() // remember the start time
         (1..3).asFlow().onEach { delay(100) } // a number every 100 ms
                 .flatMapLatest { requestFlow(it, 50) }
+                .collect { value -> // collect and print
+                    println("$value at ${System.currentTimeMillis() - startTime} ms")
+                }
+    }
+
+    @Test
+    fun testCombine() = runBlocking {
+        val nums = (1..3).asFlow().onEach { delay(300) } // numbers 1..3 every 300 ms
+        val strs = flowOf("one", "two", "three").onEach { delay(400) } // strings every 400 ms
+        val startTime = System.currentTimeMillis() // remember the start time
+        nums.combine(strs) { a, b -> "$a -> $b" } // compose a single string with "combine"
                 .collect { value -> // collect and print
                     println("$value at ${System.currentTimeMillis() - startTime} ms from start")
                 }
@@ -83,4 +101,5 @@ class FlowTest {
 //
 //        println(flow.toList())
     }
+
 }

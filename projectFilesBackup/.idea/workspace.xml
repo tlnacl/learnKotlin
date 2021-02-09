@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d164ff0b-ea70-47aa-a715-d890e6f92e61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/coroutines/src/test/kotlin/BasicTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coroutines/src/test/kotlin/com/tlnacl/learn/FlowTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coroutines/src/test/kotlin/com/tlnacl/learn/FlowTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learnKotlin" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learnKotlin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learnKotlin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1P7JBqNGaYfks9TRLWnfdc5EuGx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.tlnacl.learn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coroutines/src/test/kotlin/com/tlnacl/learn/crv" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BasicTest.testBreak">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicTest.testBreak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coroutines" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasicTest" />
+      <option name="METHOD_NAME" value="testBreak" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoroutineRunnerTest.testControlledRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coroutines" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tlnacl.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tlnacl.learn" />
+      <option name="MAIN_CLASS_NAME" value="com.tlnacl.learn.CoroutineRunnerTest" />
+      <option name="METHOD_NAME" value="testControlledRunner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowTest.testCombine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coroutines" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tlnacl.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tlnacl.learn" />
+      <option name="MAIN_CLASS_NAME" value="com.tlnacl.learn.FlowTest" />
+      <option name="METHOD_NAME" value="testCombine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowTest.testConflate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coroutines" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tlnacl.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tlnacl.learn" />
+      <option name="MAIN_CLASS_NAME" value="com.tlnacl.learn.FlowTest" />
+      <option name="METHOD_NAME" value="testConflate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowTest.testFlatMapLatest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coroutines" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tlnacl.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tlnacl.learn" />
+      <option name="MAIN_CLASS_NAME" value="com.tlnacl.learn.FlowTest" />
+      <option name="METHOD_NAME" value="testFlatMapLatest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BasicTest.testBreak" />
+        <item itemvalue="JUnit.CoroutineRunnerTest.testControlledRunner" />
+        <item itemvalue="JUnit.FlowTest.testCombine" />
+        <item itemvalue="JUnit.FlowTest.testConflate" />
+        <item itemvalue="JUnit.FlowTest.testFlatMapLatest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d164ff0b-ea70-47aa-a715-d890e6f92e61" name="Default Changelist" comment="" />
+      <created>1562031175913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562031175913</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add coroutine presentation code">
+      <created>1565929987708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565929987708</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Can't understand flatMap">
+      <created>1565933419737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565933419737</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'master' into coroutine-presentation&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.gradle/4.10.3/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.10.3/fileHashes/fileHashes.lock&#10;#&#9;.gradle/4.10.3/taskHistory/taskHistory.bin&#10;#&#9;.gradle/4.10.3/taskHistory/taskHistory.lock&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.idea/gradle.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;coroutines/build.gradle&#10;#&#9;coroutines/out/production/classes/com/tlnacl/learn/StandardFunctionKt.class">
+      <created>1588812985575</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588812985575</updated>
+    </task>
+    <task id="LOCAL-00004" summary="working now">
+      <created>1588814168265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588814168265</updated>
+    </task>
+    <task id="LOCAL-00005" summary="move files">
+      <created>1588814381282</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588814381282</updated>
+    </task>
+    <task id="LOCAL-00006" summary="flow test and upgrade to junit 5">
+      <created>1591158606914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591158606914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add coroutine presentation code" />
+    <MESSAGE value="Can't understand flatMap" />
+    <MESSAGE value="Merge branch 'master' into coroutine-presentation&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.gradle/4.10.3/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.10.3/fileHashes/fileHashes.lock&#10;#&#9;.gradle/4.10.3/taskHistory/taskHistory.bin&#10;#&#9;.gradle/4.10.3/taskHistory/taskHistory.lock&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.idea/gradle.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;coroutines/build.gradle&#10;#&#9;coroutines/out/production/classes/com/tlnacl/learn/StandardFunctionKt.class" />
+    <MESSAGE value="working now" />
+    <MESSAGE value="move files" />
+    <MESSAGE value="flow test and upgrade to junit 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="flow test and upgrade to junit 5" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1618" height="269" key="GridCell.Tab.0.bottom" timestamp="1605144968320">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1618" height="269" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1037@0.23.1792.1037" timestamp="1598299105946" />
+    <state width="1618" height="269" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1605144968320" />
+    <state width="1618" height="269" key="GridCell.Tab.0.center" timestamp="1605144968320">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1618" height="269" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1037@0.23.1792.1037" timestamp="1598299105946" />
+    <state width="1618" height="269" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1605144968320" />
+    <state width="1618" height="269" key="GridCell.Tab.0.left" timestamp="1605144968319">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1618" height="269" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1037@0.23.1792.1037" timestamp="1598299105945" />
+    <state width="1618" height="269" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1605144968319" />
+    <state width="1618" height="269" key="GridCell.Tab.0.right" timestamp="1605144968320">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1618" height="269" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1037@0.23.1792.1037" timestamp="1598299105946" />
+    <state width="1618" height="269" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1605144968320" />
+    <state x="460" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1605144797674">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="460" y="355" key="com.intellij.ide.util.TipDialog/1792.23.1920.1057/0.23.1792.1037@0.23.1792.1037" timestamp="1598232090853" />
+    <state x="460" y="356" key="com.intellij.ide.util.TipDialog/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1605144797674" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
