@@ -7,13 +7,13 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.consumeEach
 import kotlinx.coroutines.channels.distinct
+import kotlinx.coroutines.flow.*
 import org.junit.jupiter.api.Test
 import java.lang.Exception
 import kotlin.system.measureTimeMillis
 
 class CorotinesSampleTest {
-    val userChannel = Channel<UserState>()
-
+    //    val sharedFlow: SharedFlow<UserState> = _sharedFlow
     suspend fun getUserById(userId: String): User? {
         if (userId == "4") return null
         if (userId == "errorId") throw IllegalArgumentException("Test error handling")
@@ -57,39 +57,29 @@ class CorotinesSampleTest {
     @Test
     fun `test test user states change to create co driver event coroutine`() {
         runBlocking {
-            launch {
-                userChannel.distinct().consumeEach { userState ->
-                    createCoDriverEvent(userState)
-                }
-            }
-
-            userChannel.send(UserState("Account1", listOf("1", "2")))
-            userChannel.send(UserState("Account1", listOf("1", "2")))
-            userChannel.send(UserState("Account2", listOf("1", "2")))
-            userChannel.send(UserState("Account1", listOf("1", "3")))
-//            userChannel.send(UserState("Account1", listOf("1", "errorId")))
-            userChannel.send(UserState("Account1", listOf("1", "4")))
-            userChannel.send(UserState("Account1", listOf("1", "2", "3")))
+            flow {
+                emit(UserState("Account1", listOf("1", "2")))
+                emit(UserState("Account1", listOf("1", "2")))
+                emit(UserState("Account2", listOf("1", "2")))
+                emit(UserState("Account1", listOf("1", "3")))
+//            emit(UserState("Account1", listOf("1", "errorId")))
+                emit(UserState("Account1", listOf("1", "4")))
+                emit(UserState("Account1", listOf("1", "2", "3")))
 //            delay(50)
-            userChannel.close()
+            }.distinctUntilChanged().collect { userState ->
+                createCoDriverEvent(userState)
+            }
         }
     }
-
-
-
-
-
-
-
 
     suspend fun concurrentSave(userState: UserState) {
         try {
             val time = measureTimeMillis {
                 if (userState.userIds.isEmpty() || userState.accountId != getCurrentAccountId()) return
-                for (userId in userState.userIds){
-                    if (userId != getPrimaryUserId()){
+                for (userId in userState.userIds) {
+                    if (userId != getPrimaryUserId()) {
                         continue
-                    }else{
+                    } else {
                         val user = getUserById(userId) ?: continue
                         val eldEvent = saveEldEvent(userState.accountId, user)
                         println("Create user change eldEvent: $eldEvent success")

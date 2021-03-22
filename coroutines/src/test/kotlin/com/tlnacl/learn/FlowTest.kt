@@ -49,11 +49,11 @@ class FlowTest {
                 }
     }
 
-private fun testFlow(i: Int):Flow<String> = channelFlow {
-    send("$i: First")
-    delay(500)
-    send("$i: Second")
-}
+    private fun testFlow(i: Int): Flow<String> = channelFlow {
+        send("$i: First")
+        delay(500)
+        send("$i: Second")
+    }
 
     @Test
     fun testFlatMapLatest() = runBlocking {
@@ -84,22 +84,47 @@ private fun testFlow(i: Int):Flow<String> = channelFlow {
                 }
     }
 
+    // Test 3 types of buffers https://medium.com/mobile-app-development-publication/kotlin-flow-buffer-is-like-a-fashion-adoption-31630a9cdb00
+    fun dressMaker(): Flow<Int> = flow {
+        for (i in 1..3) {
+            println("Dress $i in the making")
+            delay(100)
+            println("Dress $i ready for sale")
+            emit(i)
+        }
+    }
+
+    @Test
+    fun testBuffer() = runBlockingTest {
+        dressMaker()
+                .buffer()
+                .collect { value ->
+                    println("Dress $value bought for use")
+                    delay(300)
+                    println("Dress $value completely used")
+                }
+    }
+
+
     @Test
     fun testConflate() = runBlockingTest {
-        val queryFlow = flow {
-            emit("a")
-            delay(100)
-            emit("b")
-            delay(100)
-            emit("c")
-            delay(200)
-            emit("d")
-        }
+        dressMaker()
+                .conflate()
+                .collect { value ->
+                    println("Dress $value bought for use")
+                    delay(300)
+                    println("Dress $value completely used")
+                }
+    }
 
-//        queryFlow.conflate()
-//                .flatMapMerge {  }
-//
-//        println(flow.toList())
+    @Test
+    fun testCollectLatest() = runBlockingTest {
+        dressMaker()
+                .collectLatest { value ->
+                    println("Dress $value bought for use")
+                    delay(300)
+                    println("Dress $value completely used")
+                }
     }
 
 }
