@@ -11,17 +11,21 @@ fun main() = runBlocking {
             val job = coroutineContext[Job]!!
             println("Job $job")
             withTimeout(10000) {
-                val result = doSomething()
+                val result = doSomething(6)
                 println("The answer is $result")
             }
         }
+//        launch {
+//            val result = doSomething(8)
+//            println("The answer is $result")
+//        }
     }
     println("Completed in $time ms")
 }
 
 //suspendCancellableCoroutine
 
-suspend fun doSomething(): Int {
+suspend fun doSomething(result:Int): Int {
     delay(1000) // pretend we are doing something useful here
-    return 13
+    return result
 }

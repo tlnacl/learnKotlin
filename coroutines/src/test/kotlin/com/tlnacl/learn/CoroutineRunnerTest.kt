@@ -17,6 +17,7 @@ class CoroutineRunnerTest {
             launch { println("2result ${joinPrevious(controlledRunner, 2)}") }
             delay(210)
             launch { println("3result ${joinPrevious(controlledRunner, 3)}") }
+            assert(true)
         }
     }
 
